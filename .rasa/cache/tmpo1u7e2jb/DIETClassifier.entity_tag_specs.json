@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-choice",
+      "2": "I-choice",
+      "3": "L-choice",
+      "4": "U-choice",
+      "5": "B-drug_choice",
+      "6": "I-drug_choice",
+      "7": "L-drug_choice",
+      "8": "U-drug_choice",
+      "9": "B-wt_to_do_choice",
+      "10": "I-wt_to_do_choice",
+      "11": "L-wt_to_do_choice",
+      "12": "U-wt_to_do_choice",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-choice": 1,
+      "I-choice": 2,
+      "L-choice": 3,
+      "U-choice": 4,
+      "B-drug_choice": 5,
+      "I-drug_choice": 6,
+      "L-drug_choice": 7,
+      "U-drug_choice": 8,
+      "B-wt_to_do_choice": 9,
+      "I-wt_to_do_choice": 10,
+      "L-wt_to_do_choice": 11,
+      "U-wt_to_do_choice": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

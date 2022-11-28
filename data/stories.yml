@@ -1,0 +1,18 @@
+version: "3.0"
+
+stories:
+  - story: play drugs
+    steps:
+      - intent: greet
+      - action: utter_drugs
+      - intent: choose_drug
+      - action: action_choose_drug
+
+  - story: play rock paper scissors
+    steps:
+      - action: utter_start
+      - intent: greet
+      - action: utter_play
+      - intent: inform
+      - action: action_play_rps
+      - action: utter_play_again

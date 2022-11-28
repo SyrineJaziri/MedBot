@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4lOKStOLa2tjAbGCEnE=": "utter_start",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4lOKStOLa4lSWlySWFRSWxsLAC+RIzo=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4lOKStOLa4lSWlySWFRCSCmUk5NZXJKaB1RbWpxaBFSTmQfkllgppBelpgLNiAUA/iA9Dg==": "utter_play",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4lOKStOLa4lSWlySWFRCSCmUk5NZXJKaB1RbWpxaBFSTmQfkllgppBelphI0A2JdQU5iJU4DYgGm4FW/": "action_listen",
+    "eJydjlEKgCAQRK/iATqBV4mQpTYRdJV1DUK8e4L9G/3NwOPNrLUtqibGy8AuLpJWdQRDEFCrIoJsDi42t09oFmCZoW/xLgtSZ0tG7oyjXkUry4hTx5hLHu6fgskJR2fk0Nr2AFG/cAc=": "action_play_rps",
+    "eJydjtEJgDAMRFfpAE7QVURK0FgKmpYkFaS4uxX9lYp/d/B4d305OlMS4+Zg1BDJmnIHR7CiNVkV2U2cvRyfUFFgbaFPWYIoUmWzIFcmUK1qjWfEpuOeSwvsPwWNE4HmyOtHyXXDcZJ3zXACKwiLKg==": "utter_play_again",
+    "eJydj9EJwzAMRFfxAJnAq5QgRKsaQaIYSS4Uk93rkED+6pA/HTzenR51HULNSh/Ap/MiMdT9AMGZYijupPDSkmy9hJqjeg89wsTmJI0tRtoYlhY9hqREXcdelyf83hR0RrC8F50vSrYZoNnuas5nABPynznjDzOqpq4=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/Nqa2MBEm8UYQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/NqCaiHcnIyi0tS84BqS4tTi4BqMvOA3BIrhZTUvMra2lgAwP4tzg==": "utter_goodbye",
+    "eJyFjdEJwCAMBVfJAJ3AVUqRtAYRbBSNBRF3r2B/i3/v4Li3t75Bi4kejZe4wAraHJrxJgVFhJKOHqtGi477wv/AuyzEwy2Z0nAcDxQFhriuEvPShmDOSn+J4wUafEdL": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/NqCaiHcnIyi0tS84BqS4tTi4BqMvOA3BKgdFpaZlFubW0sAB0+LpM=": "utter_play",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/NqCaiHcnIyi0tS84BqS4tTi4BqMvOA3BKgdFpaZlEuIUMQluI2IRYAX6dHog==": "action_listen",
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_drugs",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEpRaXpxThNiAUARIc0pQ==": "action_listen"
+  }
+}

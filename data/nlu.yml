@@ -1,0 +1,209 @@
+version: "3.0"
+
+nlu:
+  - intent: choose_drug
+    examples: |
+      - [acrivastine](drug_choice)
+      - [aciclovir](drug_choice)
+      - [adalimumab](drug_choice)
+      - [alendronic acid](drug_choice)
+      - [allopurinol](drug_choice)
+      - [alogliptin](drug_choice)
+      - [amitriptyline for depression](drug_choice)
+      - [amitriptyline for pain](drug_choice)
+      - [amlodipine](drug_choice)
+      - [amoxicillin](drug_choice)
+      - [aspirin for pain relief](drug_choice)
+      - [low-dose aspirin](drug_choice)
+      - [anastrozole](drug_choice)
+      - [apixaban](drug_choice)
+      - [atenolol](drug_choice)
+      - [atorvastatin](drug_choice)
+      - [azathioprine](drug_choice)
+      - [azithromycin](drug_choice)
+      - [baclofen](drug_choice)
+      - [beclometasone inhalers](drug_choice)
+      - [beclometasone nasal spray](drug_choice)
+      - [beclometasone skin creams](drug_choice)
+      - [bendroflumethiazide](drug_choice)
+      - [benzoyl peroxide](drug_choice)
+      - [benzydamine](drug_choice)
+      - [betahistine](drug_choice)
+      - [betamethasone for eyes, ears and nose](drug_choice)
+      - [betamethasone for skin](drug_choice)
+      - [bimatoprost](drug_choice)
+      - [bisacodyl](drug_choice)
+      - [bisoprolol](drug_choice)
+      - [brinzolamide](drug_choice)
+      - [budesonide inhalers](drug_choice)
+      - [budesonide nasal spray](drug_choice)
+      - [budesonide rectal foam and enemas](drug_choice)
+      - [bumetanide](drug_choice)
+      - [buprenorphine for pain](drug_choice)
+      - [buscopan (hyoscine butylbromide)](drug_choice)
+      - [candesartan](drug_choice)
+      - [carvedilol](drug_choice)
+      - [carbamazepine](drug_choice)
+      - [carbimazole](drug_choice)
+      - [carbocisteine](drug_choice)
+      - [carmellose sodium](drug_choice)
+      - [cefalexin](drug_choice)
+      - [cetirizine](drug_choice)
+      - [chloramphenicol](drug_choice)
+      - [chlorhexidine](drug_choice)
+      - [chlorphenamine (piriton)](drug_choice)
+      - [cinnarizine](drug_choice)
+      - [ciprofloxacin](drug_choice)
+      - [citalopram](drug_choice)
+      - [clarithromycin](drug_choice)
+      - [clobetasol](drug_choice)
+      - [clobetasone](drug_choice)
+      - [clonazepam](drug_choice)
+      - [clopidogrel](drug_choice)
+      - [clotrimazole](drug_choice)
+      - [clotrimazole for thrush (canesten)](drug_choice)
+      - [co-amoxiclav](drug_choice)
+      - [co-beneldopa](drug_choice)
+      - [co-careldopa](drug_choice)
+      - [co-codamol for adults](drug_choice)
+      - [co-codamol for children](drug_choice)
+      - [co-codaprin (aspirin and codeine)](drug_choice)
+      - [co-dydramol](drug_choice)
+      - [codeine](drug_choice)
+      - [colchicine](drug_choice)
+      - [cyanocobalamin](drug_choice)
+      - [cyclizine](drug_choice)
+      - [dabigatran](drug_choice)
+      - [dapagliflozin](drug_choice)
+      - [digoxin](drug_choice)
+      - [diphenhydramine](drug_choice)
+      - [domperidone](drug_choice)
+      - [dosulepin](drug_choice)
+      - [doxazosin](drug_choice)
+      - [edoxaban](drug_choice)
+      - [empagliflozin](drug_choice)
+      - [eplerenone](drug_choice)
+      - [esomeprazole](drug_choice)
+      - [felodipine](drug_choice)
+      - [fentanyl](drug_choice)
+      - [fexofenadine](drug_choice)
+      - [fluconazole](drug_choice)
+      - [fluoxetine (prozac)](drug_choice)
+      - [furosemide](drug_choice)
+      - [gliclazide](drug_choice)
+      - [gabapentin](drug_choice)
+      - [gaviscon (alginic acid)](drug_choice)
+      - [heparinoid](drug_choice)
+      - [hydroxocobalamin](drug_choice)
+      - [hyoscine hydrobromide](drug_choice)
+      - [ibuprofen and codeine](drug_choice)
+      - [indapamide](drug_choice)
+      - [irbesartan](drug_choice)
+      - [isosorbide mononitrate and isosorbide dinitrate](drug_choice)
+      - [ketoconazole](drug_choice)
+      - [labetalol](drug_choice)
+      - [lactulose](drug_choice)
+      - [lansoprazole](drug_choice)
+      - [levothyroxine](drug_choice)
+      - [linagliptin](drug_choice)
+      - [lorazepam](drug_choice)
+      - [losartan](drug_choice)
+      - [macrogol](drug_choice)
+      - [mebendazole](drug_choice)
+      - [melatonin](drug_choice)
+      - [metronidazole](drug_choice)
+      - [metoprolol](drug_choice)
+      - [mirtazapine](drug_choice)
+      - [morphine](drug_choice)
+      - [montelukast](drug_choice)
+      - [naproxen](drug_choice)
+      - [nefopam](drug_choice)
+      - [nifedipine](drug_choice)
+      - [nitrofurantoin](drug_choice)
+      - [nystatin](drug_choice)
+      - [olanzapine](drug_choice)
+      - [olmesartan](drug_choice)
+      - [omeprazole](drug_choice)
+      - [oxycodone](drug_choice)
+      - [pantoprazole](drug_choice)
+      - [paracetamol for adults](drug_choice)
+      - [paroxetine](drug_choice)
+      - [phenytoin](drug_choice)
+      - [perindopril](drug_choice)
+      - [pioglitazone](drug_choice)
+      - [propranolol](drug_choice)
+      - [rabeprazole](drug_choice)
+      - [ramipril](drug_choice)
+      - [risperidone](drug_choice)
+      - [ropinirole](drug_choice)
+      - [salbutamol inhaler](drug_choice)
+      - [saxagliptin](drug_choice)
+      - [simeticone](drug_choice)
+      - [simvastatin](drug_choice)
+      - [tadalafil](drug_choice)
+      - [temazepam](drug_choice)
+      - [terbinafine](drug_choice)
+      - [tolterodine](drug_choice)
+      - [valsartan](drug_choice)
+      - [verapamil](drug_choice)
+      - [warfarin](drug_choice)
+      - [zolpidem](drug_choice)
+      - [zopiclone](drug_choice)
+
+  - intent: choose_wt_to_know
+    examples: |
+      - [illness](wt_to_do_choice) 
+      - [similar_drugs](wt_to_do_choice) 
+      - [side_effects](wt_to_do_choice)
+
+ 
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human

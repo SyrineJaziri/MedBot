@@ -1,0 +1,221 @@
+version: "3.0"
+
+intents:
+  - greet
+  - inform
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - choose_drug
+  - choose_wt_to_know
+
+entities:
+  - choice
+  - drug_choice
+  - wt_to_do_choice
+
+slots:
+  choice:
+    type: categorical
+    values:
+      - rock
+      - paper
+      - scissors
+    mappings:
+      - type: from_entity
+        entity: choice
+
+  drug_choice:
+    type: categorical
+    values:
+      - acrivastine
+      - aciclovir
+      - adalimumab
+      - alendronic acid
+      - allopurinol
+      - alogliptin
+      - amitriptyline for depression
+      - amitriptyline for pain
+      - amlodipine
+      - amoxicillin
+      - aspirin for pain relief
+      - low-dose aspirin
+      - anastrozole
+      - apixaban
+      - atenolol
+      - atorvastatin
+      - azathioprine
+      - azithromycin
+      - baclofen
+      - beclometasone inhalers
+      - beclometasone nasal spray
+      - beclometasone skin creams
+      - bendroflumethiazide
+      - benzoyl peroxide
+      - benzydamine
+      - betahistine
+      - betamethasone for eyes, ears and nose
+      - betamethasone for skin
+      - bimatoprost
+      - bisacodyl
+      - bisoprolol
+      - brinzolamide
+      - budesonide inhalers
+      - budesonide nasal spray
+      - budesonide rectal foam and enemas
+      - bumetanide
+      - buprenorphine for pain
+      - buscopan (hyoscine butylbromide)
+      - candesartan
+      - carvedilol
+      - carbamazepine
+      - carbimazole
+      - carbocisteine
+      - carmellose sodium
+      - cefalexin
+      - cetirizine
+      - chloramphenicol
+      - chlorhexidine
+      - chlorphenamine (piriton)
+      - cinnarizine
+      - ciprofloxacin
+      - citalopram
+      - clarithromycin
+      - clobetasol
+      - clobetasone
+      - clonazepam
+      - clopidogrel
+      - clotrimazole
+      - clotrimazole for thrush (canesten)
+      - co-amoxiclav
+      - co-beneldopa
+      - co-careldopa
+      - co-codamol for adults
+      - co-codamol for children
+      - co-codaprin (aspirin and codeine)
+      - co-dydramol
+      - codeine
+      - colchicine
+      - cyanocobalamin
+      - cyclizine
+      - dabigatran
+      - dapagliflozin
+      - digoxin
+      - diphenhydramine
+      - domperidone
+      - dosulepin
+      - doxazosin
+      - edoxaban
+      - empagliflozin
+      - eplerenone
+      - esomeprazole
+      - felodipine
+      - fentanyl
+      - fexofenadine
+      - fluconazole
+      - fluoxetine (prozac)
+      - furosemide
+      - gliclazide
+      - gabapentin
+      - gaviscon (alginic acid)
+      - heparinoid
+      - hydroxocobalamin
+      - hyoscine hydrobromide
+      - ibuprofen and codeine
+      - indapamide
+      - irbesartan
+      - isosorbide mononitrate and isosorbide dinitrate
+      - ketoconazole
+      - labetalol
+      - lactulose
+      - lansoprazole
+      - levothyroxine
+      - linagliptin
+      - lorazepam
+      - losartan
+      - macrogol
+      - mebendazole
+      - melatonin
+      - metronidazole
+      - metoprolol
+      - mirtazapine
+      - morphine
+      - montelukast
+      - naproxen
+      - nefopam
+      - nifedipine
+      - nitrofurantoin
+      - nystatin
+      - olanzapine
+      - olmesartan
+      - omeprazole
+      - oxycodone
+      - pantoprazole
+      - paracetamol for adults
+      - paroxetine
+      - phenytoin
+      - perindopril
+      - pioglitazone
+      - propranolol
+      - rabeprazole
+      - ramipril
+      - risperidone
+      - ropinirole
+      - salbutamol inhaler
+      - saxagliptin
+      - simeticone
+      - simvastatin
+      - tadalafil
+      - temazepam
+      - terbinafine
+      - tolterodine
+      - valsartan
+      - verapamil
+      - warfarin
+      - zolpidem
+      - zopiclone
+    mappings:
+      - type: from_entity
+        entity: drug_choice
+
+  wt_to_do_choice:
+    type: categorical
+    values:
+      - illness
+      - similar_drugs
+      - side_effects
+    mappings:
+      - type: from_entity
+        entity: wt_to_do_choice
+
+responses:
+  utter_start:
+    - text: "Game is starting"
+
+  utter_drugs:
+    - text: "Saisir le nom du medicament"
+
+  utter_play:
+    - text: "Wanna play ? type 'rock', 'paper' or 'scissors' to play."
+
+  utter_play_again:
+    - text: "Do you want play again?"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_wt_to_know_abt_drug:
+    - text: "What do you wanna know about this drug ? 'illness', 'similar_drugs' or 'side_effects' ?"
+
+actions:
+  - action_play_rps
+  - action_choose_drug
+  - action_wt_to_do
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

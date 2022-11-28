@@ -1,0 +1,20 @@
+{
+  "lookup": {
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otLEotKamtjAbHLEno=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otLEotKagkohXJyMotLUvOAakuLU4uAajLzgNwSK4X0otRUoBmxAA0tLE4=": "utter_play",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otLEotKagkohXJyMotLUvOAakuLU4uAajLzgNwSK4X0otRUgmZArCvISazEaUAsAHTiRP8=": "action_listen",
+    "eJydjtEJwCAMRFfJAJ3AVUqRUNISsFFiLBRx9wr2X+jfHTze3VrbAjUp3R534ygO6ghe8CIHxYzUZ0O1NkG/EjgbSWdLJu0MS6/m4FSiqWPMpYDPT8HkBMsR9WptewGbtl9H": "action_play_rps",
+    "eJydjlEKgCAQRK+yB+gEXiVCJLYQdJV1DUK8e4b9htHfDDzezFzqBCUyHtqsYgMpKD1oMh4VZBFkncSw1AH6FGeTIDU2J+TGWGpVFOyMOHT0uejM+VMwOGFpC+w/Su4bmmN61ywXz3R6ag==": "utter_play_again",
+    "eJydj9EJgDAMRFfpAE7QVURCkCgBjSVNBSnubkXBPyv+5eB499LmvXE5KK2AvfEi3uXrAMGZvEtmpBAN1fZK9Q4TRyMp3RRJS4elRPNuVKIq45oLE24/ARUJlmHR+SPk1AAN8S/meQZwRH7R6Q4h2pXu": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/Nqa2MBEm8UYQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/NqCaiHcnIyi0tS84BqS4tTi4BqMvOA3BIrhZTUvMra2lgAwP4tzg==": "utter_goodbye",
+    "eJyFjdEJwCAMBVfJAJ3AVUqRtAYRbBSNBRF3r2B/i3/v4Li3t75Bi4kejZe4wAraHJrxJgVFhJKOHqtGi477wv/AuyzEwy2Z0nAcDxQFhriuEvPShmDOSn+J4wUafEdL": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/NqCaiHcnIyi0tS84BqS4tTi4BqMvOA3BKgdFpaZlFubW0sAB0+LpM=": "utter_play",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4gtyEivjE9MTM/NqCaiHcnIyi0tS84BqS4tTi4BqMvOA3BKgdFpaZlEuIUMQluI2IRYAX6dHog==": "action_listen",
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_drugs",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEpRaXpxThNiAUARIc0pQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEpRaXpxWSaQMAVyRn5+cWpYBtqa2MBkqtQ9A==": "action_choose_drug",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEpRaXpxWSaQMAVyRn5+cWpYBuINAlZB37jYgE7hG9G": "action_listen"
+  }
+}
